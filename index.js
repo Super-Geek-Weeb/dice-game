@@ -5,8 +5,6 @@ function game() {
     var winner;
     var player1DiceImg="dice" + player1Dice + ".png";
     var player2DiceImg="dice" + player2Dice + ".png";
-    console.log(player1DiceImg);
-    console.log(player2DiceImg);
     document.querySelectorAll(".dice-img")[0].setAttribute("src",player1DiceImg);
     document.querySelectorAll(".dice-img")[1].setAttribute("src",player2DiceImg);
     if (player1Dice===player2Dice){
