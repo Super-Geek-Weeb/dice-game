@@ -1,5 +1,3 @@
-window.onload=game();
-function game() {
     var player1Dice=Math.ceil(Math.random()*6);
     var player2Dice=Math.ceil(Math.random()*6);
     var player1DiceImg="dice" + player1Dice + ".png";
@@ -12,4 +10,4 @@ function game() {
       document.querySelector("h1").innerText="🚩Play 1 Wins!"
     } else {
       document.querySelector("h1").innerText="Play 2 Wins! 🚩"}
-}
+
